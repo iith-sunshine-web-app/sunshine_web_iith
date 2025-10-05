@@ -1,15 +1,15 @@
 import Navbar from './components/Navbar.jsx';
 import Footer from './components/Footer.jsx';
-import './App.css';
+import { Outlet } from 'react-router-dom';
 
 function App(){
   return (
-    <div>
+    <div className="flex flex-col min-h-screen bg-white">
+      
       <Navbar />
 
-      <main className="mainContent">
-        {/*  */}
-        <p>*    Space for main content     *</p>
+      <main className="flex-grow">
+        <Outlet />
       </main>
 
       <Footer />
