@@ -9,6 +9,7 @@ function App(){
       <Navbar />
 
       <main className="flex-grow">
+        {/* The router replaces this Outlet with the current tab page based on the URL. */}
         <Outlet />
       </main>
 

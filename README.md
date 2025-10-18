@@ -14,7 +14,7 @@ This is the official repository for the new Sunshine web platform at IITH.
 1.  **Clone the repository**
 
     ```bash
-    git clone <your-repository-url>
+    git clone https://github.com/iith-sunshine-web-app/sunshine_web_iith.git
     cd sunshine-iith
     ```
 

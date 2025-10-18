@@ -24,7 +24,7 @@ function Footer() {
 
             {/* Bottom Bar */}
             <div className="flex justify-between ml-[12rem] text-[0.9rem]">
-                <p>Copyright © 2023 Sunshine, IIT Hyderbad</p>
+                <p>Copyright © 2023 Sunshine, IIT Hyderabad</p>
                 <a href='#' className="text-white no-underline mr-[26rem]">Developers Team</a>
             </div>
 
