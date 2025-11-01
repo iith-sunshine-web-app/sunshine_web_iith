@@ -1,5 +1,5 @@
 import { resources } from '../data/resourcesData.js';
-import ResourceSection from './ResourceSection.jsx';
+import ResourceSection from '../components/ResourceSection.jsx';
 
 function ResourcesPage() {
 

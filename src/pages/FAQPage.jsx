@@ -1,5 +1,5 @@
 import { faqs } from '../data/faqData.js';
-import AccordionItem from './AccordionItem.jsx';
+import AccordionItem from '../components/AccordionItem.jsx';
 
 function FAQPage() {
   // To match your design, we split the array into two columns

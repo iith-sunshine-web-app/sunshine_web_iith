@@ -3,13 +3,12 @@ import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import App from './App.jsx';
-import HomePage from './components/HomePage.jsx';
-import TeamPage from './components/TeamPage.jsx';
-import ServicesPage from './components/ServicePage.jsx';
-import ResourcesPage from './components/ResourcesPage.jsx';
-import FAQPage from './components/FAQPage.jsx';
-import EventsPage from './components/EventsPage.jsx';
-// import SupportPage from './components/SupportPage.js';
+import HomePage from './pages/HomePage.jsx';
+import TeamPage from './pages/TeamPage.jsx';
+import ServicesPage from './pages/ServicePage.jsx';
+import ResourcesPage from './pages/ResourcesPage.jsx';
+import FAQPage from './pages/FAQPage.jsx';
+import EventsPage from './pages/EventsPage.jsx';
 
 const router = createBrowserRouter([
   {
@@ -24,10 +23,6 @@ const router = createBrowserRouter([
         path: "services",
         element: <ServicesPage />,
       },
-      // {
-      //   path: "support",
-      //   element: <SupportPage />,
-      // },
       {
         path: "resources",
         element: <ResourcesPage />,

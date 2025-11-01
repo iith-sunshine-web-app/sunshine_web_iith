@@ -1,5 +1,5 @@
 import { services } from '../data/servicesData.js';
-import ServiceCard from './ServiceCard.jsx';
+import ServiceCard from '../components/ServiceCard.jsx';
 import backgroundPattern from '../assets/backgroundPattern.png';
 
 function ServicesPage() {

@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { teamData } from '../data/teamData.js';
-import MemberCard from './MemberCard.jsx';
+import MemberCard from '../components/MemberCard.jsx';
 
 // function responsible for displaying the sections and member cards
 function ContentRenderer({ data, sectionTitle: initialSectionTitle }) {
