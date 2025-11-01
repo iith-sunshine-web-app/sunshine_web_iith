@@ -32,7 +32,7 @@ const navItems = [
             { name: '....strategies', path: '#' },
         ]
     },
-    { name: 'FAQ', path: '#'},
+    { name: 'FAQ', path: '/faq'},
     {
         name: 'Appointment', path: '#', subMenu: [
             { name: 'Whatsapp', path:'#' },
@@ -47,7 +47,7 @@ const navItems = [
             { name: 'Students', path: '/team/Students' },
         ]
     },
-    { name: 'Events', path: '#' },
+    { name: 'Events', path: '/events' },
 ]
 
 function Navbar() {
