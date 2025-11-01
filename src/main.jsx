@@ -9,6 +9,8 @@ import ServicesPage from './pages/ServicePage.jsx';
 import ResourcesPage from './pages/ResourcesPage.jsx';
 import FAQPage from './pages/FAQPage.jsx';
 import EventsPage from './pages/EventsPage.jsx';
+import SupportPage from './pages/SupportPage.jsx';
+import AppointmentPage from './pages/AppointmentPage.jsx';
 
 const router = createBrowserRouter([
   {
@@ -24,6 +26,10 @@ const router = createBrowserRouter([
         element: <ServicesPage />,
       },
       {
+        path: "support",
+        element: <SupportPage />,
+      },
+      {
         path: "resources",
         element: <ResourcesPage />,
       },
@@ -34,6 +40,10 @@ const router = createBrowserRouter([
       {
         path: "team/:activeTab?",
         element: <TeamPage />, // If the path is "/team/{activeTab}" then render the specific TeamPage component
+      },
+      {
+        path: "appointment",
+        element: <AppointmentPage />
       },
       {
         path: "events",

@@ -17,10 +17,10 @@ const navItems = [
         ]
     },
     {
-        name: 'Support', path: '#', subMenu: [
-            { name: 'Buddy Program', path: '#' },
-            { name: 'Mentor Program', path: '#' },
-            { name: 'Well-being Representative', path: '#' },
+        name: 'Support', path: '/support', subMenu: [
+            { name: 'Buddy Program', path: '/support#buddy-program' },
+            { name: 'Mentor Program', path: '/support#mentor-program' },
+            { name: 'Well-being Representative', path: '/support#well-being-representives' },
         ]
     },
     {
@@ -34,7 +34,7 @@ const navItems = [
     },
     { name: 'FAQ', path: '/faq'},
     {
-        name: 'Appointment', path: '#', subMenu: [
+        name: 'Appointment', path: '/appointment', subMenu: [
             { name: 'Whatsapp', path:'#' },
             { name: 'Email', path: '#' },
             { name: 'Offline/Online', path: '#' },
