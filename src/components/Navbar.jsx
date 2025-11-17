@@ -50,37 +50,54 @@ const navItems = [
     { name: 'Events', path: '/events' },
 ]
 
-function Navbar() {
+// --- This is a new component for the mobile menu links ---
+function MobileNavLink({ to, children, onClick }) {
+  return (
+    <NavLink
+      to={to}
+      onClick={onClick}
+      end={to === '/'}
+      className={({ isActive }) => `
+        block py-3 px-4 text-lg font-semibold
+        ${isActive ? 'bg-sunshine-orange text-white' : 'text-gray-800 hover:bg-gray-100'}
+      `}
+    >
+      {children}
+    </NavLink>
+  );
+}
 
-    const [openDropDown, setOpenDropDown] = useState(null);
+
+function Navbar() {
+    const [openDesktopDropDown, setOpenDesktopDropDown] = useState(null);
+    const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false); // <-- New state for mobile menu
+
+    // Function to close all menus
+    const closeAllMenus = () => {
+      setOpenDesktopDropDown(null);
+      setIsMobileMenuOpen(false);
+    };
 
     return (
-        <nav className="sticky top-0 z-50 flex items-center py-4 px-8 bg-sunshine-peach">
-            <NavLink to="/">
-                <img src={sunshineLogo} alt="Sunshine Logo" className="h-10 flex-shrink-0" />
-            </NavLink>
+        <nav className="sticky top-0 z-50 bg-sunshine-peach shadow-md">
+            <div className="container mx-auto flex items-center justify-between py-4 px-4 sm:px-8">
+                {/* Logo */}
+                <NavLink to="/" onClick={closeAllMenus}>
+                    <img src={sunshineLogo} alt="Sunshine Logo" className="h-10 flex-shrink-0" />
+                </NavLink>
 
-            <ul className="flex flex-grow justify-around mr-36 items-center list-none">
-                {navItems.map((item) => {
-                    const commonClasses = "py-2 px-4 rounded-lg font-medium text-gray-800 flex items-center gap-2 cursor-pointer transition-colors duration-200";
+                {/* Desktop Menu (Hidden on mobile) */}
+                <ul className="hidden lg:flex flex-grow justify-around items-center list-none max-w-4xl">
+                    {navItems.map((item) => {
+                        const commonClasses = "py-2 px-3 rounded-lg font-medium text-gray-800 flex items-center gap-2 cursor-pointer transition-colors duration-200 text-sm"; // Smaller text
 
-                    return (
-                        <li
-                            key={item.name}
-                            className="relative group"
-                            onMouseEnter={() => item.subMenu && setOpenDropDown(item.name)} // make drop down visible on hover
-                            onMouseLeave={() => item.subMenu && setOpenDropDown(null)}
-                        >
-                            {item.path === '#' ? (
-                                <div className={`${commonClasses} group-hover:bg-sunshine-orange`}>
-                                    {item.name}
-                                    {item.subMenu && (
-                                        <svg className="w-4 h-4 transition-opacity opacity-0 group-hover:opacity-100" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path>
-                                        </svg>
-                                    )}
-                                </div>
-                            ) : (
+                        return (
+                            <li
+                                key={item.name}
+                                className="relative group"
+                                onMouseEnter={() => item.subMenu && setOpenDesktopDropDown(item.name)}
+                                onMouseLeave={() => item.subMenu && setOpenDesktopDropDown(null)}
+                            >
                                 <NavLink
                                     to={item.path}
                                     end={item.path === '/'}
@@ -93,34 +110,71 @@ function Navbar() {
                                     {item.name}
                                     {item.subMenu && (
                                         <svg
-                                            className="w-4 h-4 transition-opacity opacity-0 group-hover:opacity-100"
+                                            className="w-4 h-4"
                                             fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path>
                                         </svg>
                                     )}
                                 </NavLink>
-                            )}
+                                
 
-                            {openDropDown === item.name && item.subMenu && (
-                                <ul className="absolute top-full left-1/2 -translate-x-1/2 w-max bg-[#fbe4d5] rounded-lg shadow-lg z-10">
-                                    {item.subMenu.map((subItem) => (
-                                        <li key={subItem.name} className="border-b border-gray-300 last:border-b-0">
-                                            {/* 2. CHANGE <a> TO <Link> and use the new path */}
-                                            <Link
-                                                to={subItem.path}
-                                                className="block px-4 py-2 text-gray-800 hover:bg-sunshine-orange whitespace-nowrap"
-                                                onClick={() => setOpenDropDown(null)} // Close dropdown on click
-                                            >
-                                                {subItem.name}
-                                            </Link>
-                                        </li>
-                                    ))}
-                                </ul>
-                            )}
-                        </li>
-                    );
-                })}
-            </ul>
+                                {openDesktopDropDown === item.name && item.subMenu && (
+                                    <ul className="absolute top-full left-1/2 -translate-x-1/2 w-max bg-[#fbe4d5] rounded-lg shadow-lg z-10">
+                                        {item.subMenu.map((subItem) => (
+                                            <li key={subItem.name} className="border-b border-gray-300 last:border-b-0">
+                                                <Link
+                                                    to={subItem.path}
+                                                    className="block px-4 py-2 text-gray-800 hover:bg-sunshine-orange whitespace-nowrap"
+                                                    onClick={() => setOpenDesktopDropDown(null)}
+                                                >
+                                                    {subItem.name}
+                                                </Link>
+                                            </li>
+                                        ))}
+                                    </ul>
+                                )}
+                            </li>
+                        );
+                    })}
+                </ul>
+
+                {/* Mobile Menu Button (Hamburger) - Hidden on large screens */}
+                <div className="lg:hidden">
+                    <button
+                        onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+                        className="text-gray-800 hover:text-sunshine-orange focus:outline-none"
+                    >
+                        {isMobileMenuOpen ? (
+                            // 'X' Icon
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                                <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+                            </svg>
+                        ) : (
+                            // 'Menu' Icon
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                                <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                            </svg>
+                        )}
+                    </button>
+                </div>
+            </div>
+
+            {/* Mobile Menu (Dropdown) - Shows when 'isMobileMenuOpen' is true */}
+            {isMobileMenuOpen && (
+                <div className="lg:hidden absolute top-full left-0 w-full bg-white shadow-xl z-50">
+                    <ul className="flex flex-col list-none">
+                        {/* We map over navItems here for the mobile view */}
+                        {navItems.map((item) => (
+                            <li key={item.name} className="border-b border-gray-200 last:border-b-0">
+                                {/* Note: We don't support sub-menus in this simple mobile nav */}
+                                <MobileNavLink to={item.path} onClick={closeAllMenus}>
+                                    {item.name}
+                                </MobileNavLink>
+                            </li>
+                        ))}
+                    </ul>
+                </div>
+            )}
         </nav>
     );
 }
