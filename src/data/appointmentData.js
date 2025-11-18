@@ -24,9 +24,9 @@ export const appointmentData = [
     title: 'Through whatsapp',
     borderColor: 'border-green-400',
     contacts: [
-      { name: 'Maria Morris', linkText: 'link', url: 'https://wa.me/YOUR_NUMBER' }, // Creates a WhatsApp link
-      { name: 'Maria Morris', linkText: 'link', url: 'https://wa.me/YOUR_NUMBER' },
-      { name: 'Maria Morris', linkText: 'link', url: 'https://wa.me/YOUR_NUMBER' },
+      { name: 'Ms. Maria Morris', linkText: 'whatsapp', url: 'https://wa.me/8331036081' }, // Creates a WhatsApp link
+      { name: 'Mrs. Yukti Rastogi', linkText: 'whatsapp', url: 'https://wa.me/8331036080' },
+      { name: 'Mr. Phani Bhushan', linkText: 'whatsapp', url: 'https://wa.me/8331036082' },
     ]
   },
   {
@@ -34,9 +34,9 @@ export const appointmentData = [
     title: 'Through Email',
     borderColor: 'border-orange-400',
     contacts: [
-      { name: 'Maria Morris', linkText: '123@com', url: 'mailto:123@com' },
-      { name: 'Maria Morris', linkText: '123@com', url: 'mailto:123@com' },
-      { name: 'Maria Morris', linkText: '123@com', url: 'mailto:123@com' },
+      { name: 'Ms. Maria Morris', linkText: 'maria.morris@admin.iith.ac.in', url: 'mailto:maria.morris@admin.iith.ac.in' },
+      { name: 'Mrs. Yukti Rastogi', linkText: 'yukti.rastogi@admin.iith.ac.in', url: 'mailto:yukti.rastogi@admin.iith.ac.in' },
+      { name: 'Mr. Phani Bhushan', linkText: 'phani.bhushan@admin.iith.ac.in', url: 'mailto:phani.bhushan@admin.iith.ac.in' },
     ]
   }
 ];
