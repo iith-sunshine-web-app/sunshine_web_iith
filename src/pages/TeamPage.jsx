@@ -40,7 +40,7 @@ function ContentRenderer({ data, sectionTitle: initialSectionTitle }) {
 
         {/* Grid for regular members */}
         {nonFeaturedMembers.length > 0 && (
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
             {nonFeaturedMembers.map((member) => (
               <MemberCard key={member.id} member={member} isFeatured={false} />
             ))}
