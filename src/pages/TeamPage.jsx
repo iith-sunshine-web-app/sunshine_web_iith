@@ -170,12 +170,12 @@ function TeamPage() {
 
       {/* Subtab section */}
       {subTabs.length > 1 && (
-        <div className="flex justify-center flex-wrap gap-3 mb-10 border-b pb-4">
+        <div className="flex justify-center flex-wrap gap-3 mb-5 border-b pb-4">
           {subTabs.map((subTab) => (
             <button
               key={subTab}
               onClick={() => setActiveSubTab(subTab)}
-              className={`px-4 py-1 text-sm rounded-full font-semibold transition-colors ${
+              className={`px-5 py-3 text-md rounded-lg font-semibold transition-colors ${
                 activeSubTab === subTab
                   ? "bg-sunshine-orange text-white"
                   : "bg-gray-200 text-gray-700 hover:bg-gray-300"
@@ -194,7 +194,7 @@ function TeamPage() {
             <button
               key={tertiaryTab}
               onClick={() => setActiveTertiaryTab(tertiaryTab)}
-              className={`px-3 py-1 text-xs rounded-full font-semibold transition-colors ${
+              className={`px-10 py-2 text-sm rounded-xl font-semibold transition-colors ${
                 activeTertiaryTab === tertiaryTab
                   ? "bg-blue-500 text-white"
                   : "bg-gray-200 text-gray-700 hover:bg-gray-300"
