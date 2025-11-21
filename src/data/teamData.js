@@ -59,6 +59,15 @@ import id75 from "../assets/pg_buddy/id75.jpg";
 import id76 from "../assets/pg_buddy/id76.jpg";
 import id77 from "../assets/pg_buddy/id77.jpg";
 import id78 from "../assets/pg_buddy/id78.jpg";
+// phd WELL BEING REP
+import id82 from "../assets/Phd Well-Being Rep/id82.jpg";
+import id83 from "../assets/Phd Well-Being Rep/id83.jpg";
+import id84 from "../assets/Phd Well-Being Rep/id84.jpg";
+import id85 from "../assets/Phd Well-Being Rep/id85.jpg";
+import id86 from "../assets/Phd Well-Being Rep/id86.jpg";
+import id87 from "../assets/Phd Well-Being Rep/id87.jpg";
+import id88 from "../assets/Phd Well-Being Rep/id88.jpg";
+import id89 from "../assets/Phd Well-Being Rep/id89.JPG";
 
 export const teamData = {
   Faculty: {
@@ -1695,7 +1704,8 @@ export const teamData = {
         ],
       },
     },
-    WellBeingReps: {
+
+    WellBeingRepresentatives: {
       "PhD Well-Being Heads": [
         {
           id: 79,
@@ -1728,69 +1738,93 @@ export const teamData = {
       "Well-Being Department Represenatives": [
         {
           id: 82,
-          name: "A B",
-          role: "",
-          email: "",
-          imageUrl: "",
+          name: "Megha M",
+          role: "Phd Well-Being Rep",
+          email: "bm24resch01003@iith.ac.in",
+          imageUrl: id82,
           number: "",
-          about: "",
+          about:
+            "I'm someone who's curious, a little chaotic, and figuring things out as I go. I value calm moments, real conversations, and not needing to have all the answers. There's always space here if you ever need to take a pause.",
         },
+
         {
           id: 83,
-          name: "A B",
-          role: "",
-          email: "",
-          imageUrl: "",
+          name: "Aishwarya",
+          role: "Phd Well-Being Rep",
+          email: "ai21resch11002@iith.ac.in",
+          imageUrl: id83,
           number: "",
-          about: "",
+          about:
+            "As a person interested in the intersection of technology and mental health, I am here to help and learn through Sunshine.",
         },
+
         {
           id: 84,
-          name: "A B",
-          role: "",
-          email: "",
-          imageUrl: "",
+          name: "Charvi Tandon",
+          role: "Phd Well-Being Rep",
+          email: "charvitandon8@gmail.com",
+          imageUrl: id84,
           number: "",
-          about: "",
+          about:
+            "I am passionate about moonlit skies, poetry and knowing people. You would often find me discovering the mysteries of the universe on a long night walk around campus!",
         },
+
         {
           id: 85,
-          name: "A B",
-          role: "",
-          email: "",
-          imageUrl: "",
+          name: "Elias, Harikrishna Manoj",
+          role: "Phd Well-Being Rep",
+          email: "md21b24p100001@iith.ac.in",
+          imageUrl: id85,
           number: "",
-          about: "",
+          about:
+            "An artist/designer pushing the limits of jugaad, academically ✨",
         },
+
         {
           id: 86,
-          name: "A B",
-          role: "",
-          email: "",
-          imageUrl: "",
+          name: "Krutideepa Rout",
+          role: "Phd Well-Being Rep",
+          email: "Bt24resch11008@iith.ac.in",
+          imageUrl: id86,
           number: "",
-          about: "",
+          about:
+            "I am a PhD scholar who enjoys exploring the beauty of science while staying deeply connected to the emotions and stories of people around me. I am a calm, compassionate, and thoughtful person who believes in creating a safe and positive space for others. Whether I’m decoding genomes or listening to someone who needs support, I always strive to bring empathy, patience, and quiet strength into everything I do.",
         },
+
         {
           id: 87,
-          name: "A B",
-          role: "",
-          email: "",
-          imageUrl: "",
+          name: "Nadine Hasan",
+          role: "Phd Well-Being Rep",
+          email: "ee21resch16001@iith.ac.in",
+          imageUrl: id87,
           number: "",
-          about: "",
+          about:
+            "A 5th year Ph.D. scholar in the department of EE. I'm from Syria.",
         },
+
         {
           id: 88,
-          name: "A B",
-          role: "",
-          email: "",
-          imageUrl: "",
+          name: "M Hemasundara Rao",
+          role: "Phd Well-Being Reps",
+          email: "me23mtech12002@iith.ac.in",
+          imageUrl: id88,
           number: "",
-          about: "",
+          about: "I'm usually happy and helpful person",
+        },
+
+        {
+          id: 89,
+          name: "Siddhi",
+          role: "Phd Well-Being Rep",
+          email: "bt24resch11004@iith.ac.in",
+          imageUrl: id89,
+          number: "",
+          about:
+            "I am a PhD student from Biotech department. I like talking to people and knowing their stories.",
         },
       ],
     },
+
     ManagementTeam: {
       Heads: {},
       Web: {},
