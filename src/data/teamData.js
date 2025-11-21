@@ -182,13 +182,24 @@ export const teamData = {
                 { id: 81, name: 'A B', role: '', email: '', imageUrl: '', number: '', about: '' },
             ],
             "Well-Being Department Represenatives": [
-                { id: 82, name: 'A B', role: '', email: '', imageUrl: '', number: '', about: '' },
-                { id: 83, name: 'A B', role: '', email: '', imageUrl: '', number: '', about: '' },
-                { id: 84, name: 'A B', role: '', email: '', imageUrl: '', number: '', about: '' },
-                { id: 85, name: 'A B', role: '', email: '', imageUrl: '', number: '', about: '' },
-                { id: 86, name: 'A B', role: '', email: '', imageUrl: '', number: '', about: '' },
-                { id: 87, name: 'A B', role: '', email: '', imageUrl: '', number: '', about: '' },
-                { id: 88, name: 'A B', role: '', email: '', imageUrl: '', number: '', about: '' },
+                { id: 82, name: 'Megha M', role: 'Phd Well-Being Rep', email: 'bm24resch01003@iith.ac.in', imageUrl: 'https://drive.google.com/open?id=1ZxClrpNPP_yTSB8mSOTgF3Iw5kmYoLT4', number: '', about: "I'm someone who's curious, a little chaotic, and figuring things out as I go. I value calm moments, real conversations, and not needing to have all the answers. There's always space here if you ever need to take a pause." },
+
+                { id: 83, name: 'Aishwarya', role: 'Phd Well-Being Rep', email: 'ai21resch11002@iith.ac.in', imageUrl: 'https://drive.google.com/open?id=1kTLXabrNsR-xER3yjscZ3o3IqZBu2w4r', number: '', about: 'As a person interested in the intersection of technology and mental health, I am here to help and learn through Sunshine.' },
+
+                { id: 84, name: 'Charvi Tandon', role: 'Phd Well-Being Rep', email: 'charvitandon8@gmail.com', imageUrl: 'https://drive.google.com/open?id=1HhIHsAbdbYBhezBHSklkWqhmqcQigr3d', number: '', about: 'I am passionate about moonlit skies, poetry and knowing people. You would often find me discovering the mysteries of the universe on a long night walk around campus!' },
+
+                { id: 85, name: 'Elias, Harikrishna Manoj', role: 'Phd Well-Being Rep', email: 'md21b24p100001@iith.ac.in', imageUrl: 'https://drive.google.com/open?id=1WM9JVKfWjYkcNLr0HceWfpGlqDjgrvTj', number: '', about: 'An artist/designer pushing the limits of jugaad, academically ✨' },
+
+                { id: 86, name: 'Krutideepa Rout', role: 'Phd Well-Being Rep', email: 'Bt24resch11008@iith.ac.in', imageUrl: 'https://drive.google.com/open?id=1xQTUPHpJwXoBQFoQrHFyjqlp0F_N1Qpe', number: '', about: 'I am a PhD scholar who enjoys exploring the beauty of science while staying deeply connected to the emotions and stories of people around me. I am a calm, compassionate, and thoughtful person who believes in creating a safe and positive space for others. Whether I’m decoding genomes or listening to someone who needs support, I always strive to bring empathy, patience, and quiet strength into everything I do.' },
+
+                { id: 87, name: 'Nadine Hasan', role: 'Phd Well-Being Rep', email: 'ee21resch16001@iith.ac.in', imageUrl: 'https://drive.google.com/open?id=1HDZflOMDv3AERitSxsoaNwAApRDdQgNq', number: '', about: 'A 5th year Ph.D. scholar in the department of EE. I\'m from Syria.' },
+
+                
+
+                { id: 88, name: 'M Hemasundara Rao', role: 'Phd Well-Being Reps', email: 'me23mtech12002@iith.ac.in', imageUrl: 'https://drive.google.com/open?id=1D_JuJcD5CiyL_YYVq2YbJSHUua38jrfD', number: '', about: "I'm usually happy and helpful person" },
+
+                { id: 89, name: 'Siddhi', role: 'Phd Well-Being Rep', email: 'bt24resch11004@iith.ac.in', imageUrl: 'https://drive.google.com/open?id=1FumxgDOkqd-C9mpUJ0woW-QZoHSfbI2d', number: '', about: 'I am a PhD student from Biotech department. I like talking to people and knowing their stories.' }
+
             ],
         },
         ManagementTeam: {
