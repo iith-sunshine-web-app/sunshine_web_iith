@@ -1,0 +1,185 @@
+[
+  {
+    "id": "event-1",
+    "name": "Mental Health Week",
+    "month": "October 2025",
+    "description": "The comprehensive Mental Health Week in October 2025 delivered an eye-opening campus-wide focus on awareness and well-being. The program featured diverse, inspiring activities including the creative Painting Without Brushes competition and the mindful practice of Slow Cycling. Crucially, the week integrated the global celebration of World Mental Health Day, alongside the energetic Lava Walk, to engage all students. This successful initiative powerfully fostered open dialogue, emphasizing the importance of creative expression and community support for psychological health.",
+    "photos": [
+      "/assets/events/oct-mhw/1.JPG",
+      "/assets/events/oct-mhw/2.JPG",
+      "/assets/events/oct-mhw/3.JPG",
+      "/assets/events/oct-mhw/4.JPG"
+    ]
+  },
+  {
+    "id": "event-2",
+    "name": "Suicide Prevention Week",
+    "month": "September 2025",
+    "description": "September 2025 hosted the crucial Suicide Prevention Week, igniting a campus-wide movement focused on hope and support. The program featured impactful initiatives like Heal Out Loud, which actively challenged stigma and changed narratives around mental health awareness. Complementary activities, including the Random Act of Kindness campaign and Sunshine Strides (a morning walk), fostered collective solidarity and care. The week achieved an inspiring impact, successfully promoting proactive conversations and building a stronger, more supportive community for everyone.",
+    "photos": [
+      "/assets/events/sept-spw/1.JPG",
+      "/assets/events/sept-spw/2.JPG",
+      "/assets/events/sept-spw/3.JPG",
+      "/assets/events/sept-spw/4.JPG"
+    ]
+  },
+  {
+    "id": "event-3",
+    "name": "Digital Well-being Workshop",
+    "month": "August 2025",
+    "description": "The inspiring Digital Well-being Workshop in August 2025 offered an essential guide to navigating our hyper-connected world. The session, expertly led by:________________ delivered an eye-opening impact, providing critical insights into creating healthier boundaries with technology. Participants left feeling motivated and equipped with practical strategies to manage digital consumption mindfully. The workshop truly empowered attendees to reclaim control over their time and foster a balanced, more fulfilled life.",
+    "photos": [
+      "/assets/events/aug-digitalwellness/1.JPG",
+      "/assets/events/aug-digitalwellness/2.JPG",
+      "/assets/events/aug-digitalwellness/3.JPG"
+    ]
+  },
+  {
+    "id": "event-4",
+    "name": "Orientation Programs",
+    "month": "August 2025",
+    "description": "August 2025 featured the essential Orientation Programs tailored for the incoming UG, PG, and PhD cohorts. The core purpose was to successfully integrate all new students into the college community and its resources. The sessions included enjoyable fun activities designed to facilitate early networking and interaction among the different groups. Overall, the programs received a good response from participants, effectively laying a positive foundation for the new academic year.",
+    "photos": [
+      "/assets/events/aug-orientations/1.JPG",
+      "/assets/events/aug-orientations/2.JPG",
+      "/assets/events/aug-orientations/3.JPG",
+      "/assets/events/aug-orientations/4.JPG"
+    ]
+  },
+  {
+    "id": "event-5",
+    "name": "PG Mentor Training",
+    "month": "July 2025",
+    "description": "The key PG Mentor Training in July 2025 prepared the postgraduate team with essential guidance skills. The program focused on simple, effective ways for peer support and clear communication. This specific training ensured mentors were ready to offer quality help to their mentees. The event successfully built a culture of strong student leadership in the academic community.",
+    "photos": [
+      "/assets/events/july-pgtraining/1.JPG",
+      "/assets/events/july-pgtraining/2.JPG"
+    ]
+  },
+  {
+    "id": "event-6",
+    "name": "Admission Day",
+    "month": "July 2025",
+    "description": "The Admission Day in July 2025 was a highly successful initiative focused on warmly assisting the new students during the induction process. The enthusiastic Sunshine team successfully promoted the organization, making a positive first impression on the incoming cohort. This effort generated a significantly high level of positive feedback, indicating widespread appreciation for the support provided. The event was thus impactful, effectively enhancing the community's perception of Sunshine from the very beginning of the academic year.",
+    "photos": [
+      "/assets/events/july-admissions/1.JPG",
+      "/assets/events/july-admissions/2.JPG",
+      "/assets/events/july-admissions/3.JPG",
+      "/assets/events/july-admissions/4.JPG"
+    ]
+  },
+  {
+    "id": "event-7",
+    "name": "Farewell",
+    "month": "April 2025",
+    "description": "The heartfelt Farewell event in April 2025 marked the emotional conclusion of the highly successful 2024-2025 tenure. This special evening celebrated an entire year full of dynamic and impactful events organized by the dedicated team. It served as a moment to reflect on shared achievements and strong bonds forged throughout the year. The ceremony honored the departing members, closing the chapter on a memorable tenure with deep gratitude and well wishes for the future.",
+    "photos": [
+      "/assets/events/apr-farewell/1.jpg",
+      "/assets/events/apr-farewell/2.JPG"
+    ]
+  },
+  {
+    "id": "event-8",
+    "name": "Pottery Workshop",
+    "month": "March 2025",
+    "description": "The Pottery Workshop in March 2025 offered attendees a cool, creative escape focused on therapy through tactile engagement. Participants experienced the deeply soothing process of centering clay and shaping form, using the medium as a powerful tool for mindfulness and stress reduction. This unique workshop provided a tranquil space for individuals to quiet their minds and channel their focus into creation. Attendees left feeling noticeably calmer and energized, having discovered a peaceful, artistic outlet for personal introspection.",
+    "photos": [
+      "/assets/events/mar-pottery/1.JPG",
+      "/assets/events/mar-pottery/2.JPG",
+      "/assets/events/mar-pottery/2.JPG"
+    ]
+  },
+  {
+    "id": "event-9",
+    "name": "Lava Walk",
+    "month": "March 2025",
+    "description": "The thrilling Lava Walk in March 2025 delivered an intensely energetic challenge focused entirely on dynamic teamwork. The event saw a notably large response and high participation, transforming the activity into a massive collaborative success. Teams practiced trust and quick decision-making while navigating the pressure-filled course. The Lava Walk ultimately reinforced the necessity of synergy, leaving participants energized and unified.",
+    "photos": [
+      "/assets/events/mar-lavawalk/1.JPG",
+      "/assets/events/mar-lavawalk/2.JPG"
+    ]
+  },
+  {
+    "id": "event-10",
+    "name": "Happiness Carnival",
+    "month": "March 2025",
+    "description": "The Happiness Carnival in March 2025 delivered a truly memorable evening filled with excitement and community spirit. The venue was transformed into a vibrant hub featuring diverse game stalls and a captivating Emosnap exhibition showcasing creative talent. The highlight of the night was the enchanting musical evening, where performers created an electrifying atmosphere that encouraged lively participation. This successful carnival created a joyful, relaxing space for everyone, solidifying the event as the ultimate evening of fun and unforgettable camaraderie.",
+    "photos": [
+      "/assets/events/mar-happiness/1.jpg",
+      "/assets/events/mar-happiness/2.JPG",
+      "/assets/events/mar-happiness/3.JPG",
+      "/assets/events/mar-happiness/4.JPG"
+    ]
+  },
+  {
+    "id": "event-11",
+    "name": "Food and Mental Health Workshop",
+    "month": "March 2025",
+    "description": "The insightful Food and Mental Health Workshop in March 2025 explored the direct connection between diet and psychological well-being. Expertly led by Dr. Nidha, the session focused on nutritional strategies that enhance cognitive function and emotional stability. Participants gained practical, science-backed knowledge on using mindful eating for mental health management. The workshop successfully empowered attendees to make healthier dietary choices for overall well-being.",
+    "photos": [
+      "/assets/events/mar-food/1.JPG",
+      "/assets/events/mar-food/2.JPG",
+      "/assets/events/mar-food/3.JPG"
+    ]
+  },
+  {
+    "id": "event-12",
+    "name": "Stress Management Workshop",
+    "month": "March 2025",
+    "description": "The insightful Stress Management Workshop in March 2025 provided a necessary and warm evening dedicated to personal well-being. We were privileged to host keynote speaker Dr. Tony Sam George, who shared valuable expert insights into effective, gentle coping mechanisms. The session successfully provided attendees with a calm, supportive space to learn and practice actionable relaxation techniques for daily life. Participants left feeling equipped with a renewed sense of peace and practical tools to navigate future challenges successfully.",
+    "photos": [
+      "/assets/events/mar-stress/1.JPG",
+      "/assets/events/mar-stress/2.JPG"
+    ]
+  },
+  {
+    "id": "event-13",
+    "name": "Breathe and Bond",
+    "month": "March 2025",
+    "description": "The Breathe and Bond event in February 2025 was a spectacular and highly memorable evening dedicated exclusively to all the teams working within Sunshine. Designed to celebrate camaraderie, the event featured a variety of engaging and fun activities that encouraged spontaneous laughter and collaborative spirit. This dedicated evening provided a relaxed atmosphere for team members to connect outside of their daily operational tasks. The entire Sunshine collective left feeling refreshed, unified, and deeply appreciative of the strong bonds shared across all teams.",
+    "photos": ["/assets/events/feb-bb/1.jpeg", "/assets/events/feb-bb/2.jpeg"]
+  },
+  {
+    "id": "event-14",
+    "name": "Happiness Habits and Success Workshop",
+    "month": "February 2025",
+    "description": "The engaging Happiness Habits and Success Workshop in February 2025 offered participants practical strategies for cultivating a more joyful and productive life. The session was led by:________________. Attendees explored actionable techniques for building positive daily routines and breaking down major goals into manageable steps. This vibrant and interactive event reinforced the core principles of resilience and mindful habit formation. Everyone left the workshop feeling energized and equipped with a clear, friendly roadmap for achieving both personal well-being and long-term success.",
+    "photos": ["/assets/events/feb-hh/1.jpeg", "/assets/events/feb-hh/2.jpeg"]
+  },
+  {
+    "id": "event-15",
+    "name": "Gestalt Art Therapy Workshop",
+    "month": "February 2025",
+    "description": "The serene Gestalt Art Therapy Workshop in February 2025 offered a peaceful journey into therapeutic self-discovery, guided by [Key Person/Speaker/Host]. Participants used artistic mediums to explore and integrate present emotions, a key principle of Gestalt practice. This introspective session provided attendees with valuable techniques for mindfulness and stress management. The workshop successfully created a calm space, reinforcing the profound connection between creative expression and inner peace.",
+    "photos": [
+      "/assets/events/feb-gestalt/1.JPG",
+      "/assets/events/feb-gestalt/2.JPG",
+      "/assets/events/feb-gestalt/3.JPG"
+    ]
+  },
+  {
+    "id": "event-16",
+    "name": "13th Foundation Day Celebrated",
+    "month": "January 2025",
+    "description": "The celebration of Sunshine's 13th Foundation Day in January 2025 honored its thirteen-year milestone within the institution. Director Sir delivered the keynote address, reflecting on the organization's significant journey and future impact. The highlight of the evening was the special commendation given to Sunshine for its successful hosting of the recent National Well-being Conclave. This recognition powerfully affirmed the organization's vital and high-impact role within the college community.",
+    "photos": ["/assets/events/jan-13th/1.JPG", "/assets/events/jan-13th/2.JPG"]
+  },
+  {
+    "id": "event-17",
+    "name": "PG 2nd Year and 3rd year meet",
+    "month": "January 2025",
+    "description": "The PG 2nd Year and 3rd Year Meet in January 2025 was a successful casual mixer focused on cohort bonding. Engaging fun activities, such as strategic trivia, facilitated relaxed and valuable peer interaction between the senior students. The event achieved its goal of fostering a cohesive and supportive postgraduate network. This professionally organized gathering ultimately strengthened the communal spirit within the academic program.",
+    "photos": ["/assets/events/jan-pg/1.JPG", "/assets/events/jan-pg/2.JPG"]
+  },
+  {
+    "id": "event-18",
+    "name": "UG Funshine",
+    "month": "January 2025",
+    "description": "The UG Funshine in January 2025 was a truly memorable \"Buddy Meet\" that focused on strengthening bonds through lively competition. Attendees formed teams to tackle complex puzzles, requiring quick thinking and seamless cooperation against the clock. This exciting challenge showcased the collective problem-solving talents of the students. The event successfully reinforced a strong, vibrant community spirit, forging lasting memories among friends.",
+    "photos": [
+      "/assets/events/jan-funshine/1.JPG",
+      "/assets/events/jan-funshine/2.JPG",
+      "/assets/events/jan-funshine/3.JPG"
+    ]
+  }
+]
