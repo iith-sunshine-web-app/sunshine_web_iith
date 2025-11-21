@@ -43,15 +43,14 @@ function AppointmentCard({ card }) {
       </div>
 
       {/* Right side: Image Placeholder */}
-      <div className="w-32 h-20 bg-gray-200 rounded-md flex-shrink-0 ml-4">
-        {/* Placeholder */}
+      {/* <div className="w-32 h-20 bg-gray-200 rounded-md flex-shrink-0 ml-4">
         <img
           src={card.imageUrl}
           alt={card.title}
           className="rounded object-cover w-full h-full"
           loading="lazy"
         />
-      </div>
+      </div> */}
     </div>
   );
 }

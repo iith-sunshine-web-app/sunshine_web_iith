@@ -21,12 +21,12 @@ export const appointmentData = [
         url: "mailto:maria.morris@admin.iith.ac.in",
       },
       {
-        name: "Maria Morris",
+        name: "Yukti Rastogi",
         linkText: "yukti.rastogi@admin.iith.ac.in",
         url: "mailto:yukti.rastogi@admin.iith.ac.in",
       }, // Creates an email link
       {
-        name: "Maria Morris",
+        name: "Phani Bhushan",
         linkText: "phani.bhushan@admin.iith.ac.in",
         url: "mailto:phani.bhushan@admin.iith.ac.in",
       },
@@ -39,17 +39,17 @@ export const appointmentData = [
     imageUrl: "/assets/whatsapp.jpg",
     contacts: [
       {
-        name: "Ms. Maria Morris",
+        name: "Maria Morris",
         linkText: "83310 36081",
         url: "https://wa.me/8331036081",
       }, // Creates a WhatsApp link
       {
-        name: "Mrs. Yukti Rastogi",
+        name: "Yukti Rastogi",
         linkText: "83310 36080",
         url: "https://wa.me/8331036080",
       },
       {
-        name: "Mr. Phani Bhushan",
+        name: "Phani Bhushan",
         linkText: "83310 36082",
         url: "https://wa.me/8331036082",
       },
